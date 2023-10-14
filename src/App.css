@@ -1,0 +1,48 @@
+.calc{
+  height:500px;
+  background-color: #182D67;
+  width:300px;
+  border-radius:20px;
+}
+
+.topbar{
+  height:50px;
+  display: flex;
+  align-items: center;
+}
+
+.circle{
+  margin-left:5%;
+  height:20px;
+  width:20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.inp{
+  width:97.5%;
+  height:40%;
+  background-color: #182D67;
+  border:none;
+  text-align: right;
+  
+}
+.keypad{
+  padding: 10px;
+  height:50%;
+  border-radius: 0 0 20px 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 2px;
+  cursor:default;
+}
+
+.keys{
+  display:flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.fa-solid{
+  margin-bottom:10px;
+}
